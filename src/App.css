@@ -1,0 +1,44 @@
+.custom-btn {
+  font-size: 12px;
+  padding: 5px 7px;
+}
+i.btn:disabled,
+i.btn[disabled],
+button:disabled,
+button[disabled] {
+  border: none !important;
+  background-color: #cccccc !important;
+  color: #666666 !important;
+  cursor: not-allowed !important;
+  pointer-events: none !important;
+}
+.card {
+  max-width: 400px;
+  margin: 0 auto;
+}
+.top-div {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+i.fas,
+i.fab {
+  border: 1px solid red;
+}
+
+.fa-fish {
+  color: salmon;
+}
+
+.fa-frog {
+  color: green;
+}
+
+.fa-user-ninja.vanished {
+  opacity: 0;
+}
+
+.fa-facebook {
+  color: rgb(59, 91, 152);
+}
